@@ -38,7 +38,7 @@ type: article
       {%- endif -%}
       {%- include article-footer/author-profile.html author=_author -%}
     {%- endif -%}
-
+        {%- include social-share.html -%}
     {%- if _license != false -%}
       {%- assign _data_license = site.data.licenses-%}
       {%- if site.license -%}
@@ -51,7 +51,6 @@ type: article
         {%- include article-footer/license.html license=_license_data -%}
       </div>
     {%- endif -%}
-    {%- include social-share.html -%}
   </footer>
 
   {%- include article-section-navigator.html -%}
