@@ -4,6 +4,9 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
+
+## !USE TEXT THEME
+theme: jekyll-text-theme
 #
 # ,--------.      ,--.   ,--. ,--.
 # '--.  .--',---.  \  `.'  /,-'  '-.
@@ -11,18 +14,15 @@
 #    |  |  \   --. /  .'.  \  |  |
 #    `--'   `----''--'   '--' `--'
 
-
-
-
 ## => Site Settings
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : # the base hostname & protocol for your site e.g. https://www.someone.com
+url     : https://blog.indoxploit.or.id/ # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Your Site Title
+title   : INDOXPLOIT BLOG
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+  Let's Play with Our Code and Make More Exploitations
 
 
 ## => Language and Timezone
@@ -34,11 +34,11 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 ## => Author and Social
 ##############################
 author:
-  type      : # "person" (default), "organization"
-  name      : Your Name
-  url       :
+  type      : organization # "person" (default), "organization"
+  name      : INDOXPLOIT
+  url       : https://blog.indoxploit.or.id
   avatar    : # path or url of avatar image
-  bio       : I am an amazing person.
+  bio       : Indonesian Coder Community.
   email     :
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
@@ -52,7 +52,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: user_name/repo_name
+repository: indoxploit-coders/idx-blog
 repository_tree: master
 
 
