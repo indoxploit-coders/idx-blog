@@ -37,7 +37,7 @@ author:
   type      : organization # "person" (default), "organization"
   name      : INDOXPLOIT
   url       : https://blog.indoxploit.or.id
-  avatar    : # path or url of avatar image
+  avatar    : https://secure.gravatar.com/avatar/eedb62766212327b5ed2479b664566c4 # path or url of avatar image
   bio       : Indonesian Coder Community.
   email     : shu@indoxploit.or.id
   facebook  : indoxploit # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
