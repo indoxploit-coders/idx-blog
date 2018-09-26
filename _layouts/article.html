@@ -10,7 +10,6 @@ type: article
 {%- include snippets/assign.html target=site.data.variables.default.page.license
   source0=layout.license source1=page.license -%}
 {%- assign _license = __return -%}
-{% include  share.html %}
 <div class="layout--article">
 
   <div class="article__content" itemprop="articleBody">{{ content }}</div>
@@ -51,6 +50,7 @@ type: article
         {%- include article-footer/license.html license=_license_data -%}
       </div>
     {%- endif -%}
+    {% include  share.html %}
   </footer>
 
   {%- include article-section-navigator.html -%}
